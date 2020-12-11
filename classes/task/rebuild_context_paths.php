@@ -10,7 +10,7 @@ class rebuild_context_paths extends \core\task\scheduled_task {
 
   public function execute() {
 
-    context_helper::build_all_paths(true);
+    \context_helper::build_all_paths(true);
 
   }
 
